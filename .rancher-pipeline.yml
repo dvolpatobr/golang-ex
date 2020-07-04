@@ -1,0 +1,9 @@
+stages:
+- name: stage
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: myapp
+timeout: 60
+notification: {}
