@@ -9,6 +9,6 @@ stages:
   steps:
   - runScriptConfig:
       image: java:8
-      shellScript: echo java -version
+      shellScript: java -version
 timeout: 60
 notification: {}
